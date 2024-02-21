@@ -15,7 +15,7 @@
    <p><b>MERN</b></p>
 
    <!-- Practice Qs 1 -->
-
+    <h3>1</h3>
    <h1>Avengers</h1>
    <h3>Iron Man</h3>
    <p>Also goes by the name <b>Tony Stark</b></p>
@@ -119,6 +119,7 @@
    <!-- Day 4 -->
 
    <!-- Table  1-->
+   <h3>Table 1</h3>
 
    <table border="black">
       <caption>Food Menu</caption>
@@ -145,7 +146,7 @@
    </table>
 
    <!-- Table 2 -->
-
+   <h3>Table 2</h3>
    <table border="black">
       <caption> Food Menu</caption>
       <thead>
@@ -173,7 +174,7 @@
    </table>
 
    <!-- Table 3 -->
-
+   <h3>Table 3</h3>
    <table border="black">
       <caption>Food Menu</caption>
       <thead>
@@ -206,8 +207,8 @@
       </tbody>
    </table>
 
-   <!-- Table 3 -->
-
+   <!-- Table 4 -->
+   <h3>Table 4</h3>
    <table border="black">
       <caption>A test with merged cells</caption>
       <thead>
@@ -235,9 +236,9 @@
             <td>43%</td>
          </tr>
       </tbody>
-   </table>
+   </table><br>
    <!-- Practice Qs 8 -->
-
+   <h3>Search button</h3>
    <!-- Create a search option that re directs its search request in google -->
    <!-- On clicking button..google page will open -->
    <form action="https://www.google.com/search">
@@ -271,12 +272,14 @@
       <button>Register</button>
    </form>
    <hr>
+   <!-- Level 3.1 -->
+   <h3>Table 5</h3>
    <div>
       <table border="black">
          <caption>Student Information</caption>
-         <thead>
+         
             <tr>
-               <th rowspan="5">Info</th>
+               <th rowspan="6">Info</th>
                <th rowspan="2">Name</th>
                <th colspan="2">Address</th>
 
@@ -285,35 +288,107 @@
                <th>City</th>
                <th>House</th>
             </tr>
-         </thead>
-         <tbody>
+         
+         
             <tr>
-               <td></td>
+               
                <td>A</td>
                <td>Delhi</td>
                <td>1</td>
             </tr>
             <tr>
-               <td></td>
+               
                <td>B</td>
                <td>Mumbai</td>
                <td>2</td>
             </tr>
             <tr>
-               <td></td>
+               
                <td>C</td>
                <td>Kolkata</td>
                <td>3</td>
             </tr>
             <tr>
-               <td></td>
+               
                <td>D</td>
                <td>Pun4</td>
                <td>1</td>
-            </tr>
-         </tbody>
+         
       </table>
-   </div>
+   </div><hr>
+
+   <!-- Q 2 -->
+   <h3>Form 2</h3>
+
+   <form action="/action">
+      <h3>FORM</h3>
+      <div>
+         <label for="name">Name:</label>
+         <input type="text" name="name">
+      </div><br>
+      <div>
+         Sex:
+         <input type="radio"  name="sex" id="male"  value="male" >
+         <label for="male">Male</label>
+         <input type="radio"name="sex" id="female"  value="female" >
+         <label for="female">Female</label>
+      </div><br>
+      <div>
+         Country:
+         <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+         </select>
+      </div><br>
+      <div>
+         <label for="message">Message:</label><br>
+         <textarea id="message" rows="5"></textarea>
+      </div><br>
+            
+      <div>
+            <input type="checkbox" name="tick" id="tick">
+            <label for="tick">Subscribe?</label>
+      </div><br>
+      <button>Submit</button>
+   </form><hr>
+
+   <!-- Q 3 -->
+   <h3>Form 3</h3>
+   <form action="/action">
+      <div>
+         <h3>Feedback Form</h3>
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Write your name" id="name" name="name">
+      </div><br>
+      <div>
+         <label for="email">Email:</label>
+         <input type="email" placeholder="Write your email" id="email" name="email">
+      </div><br>
+      <div>
+         <label for="Message">Message:</label>
+         <textarea id="Message" rows="5" cols="35"></textarea> 
+      </div><br>
+      <div>
+         Rate us out of 5:<br>
+        <input type="radio" name="rating" value="one" id="one">
+        <label for="one">1</label><br>
+        <input type="radio" name="rating" value="two" id="two">
+        <label for="two">2</label><br>
+        <input type="radio" name="rating" value="three" id="three">
+        <label for="three">3</label><br>
+        <input type="radio" name="rating" value="four" id="four">
+        <label for="four">4</label><br>
+        <input type="radio" name="rating" value="five" id="five">
+        <label for="five">5</label><br>
+
+      </div><br>
+      <button>Send your message</button>
+   </form>
+   
+
+
 
 
 
