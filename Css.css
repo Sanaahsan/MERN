@@ -1,0 +1,19 @@
+h2{
+    color: orange;
+}
+
+p{
+    background-color: black;
+    color:white;
+}
+
+button{
+    color: white;
+    background-color: blue;
+}
+
+h3{
+    text-align: center;
+    border: solid;
+    width:50%;
+}
