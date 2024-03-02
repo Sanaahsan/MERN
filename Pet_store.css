@@ -1,0 +1,12 @@
+span{
+    color: brown;
+}
+
+div{
+    /* background-color: pink; */
+    display: flex;
+}
+
+.card{
+    display:inline;
+}
